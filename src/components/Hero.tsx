@@ -15,10 +15,17 @@ const Hero = () => {
               Integrazione e personalizzazione professionale della soluzione gestionale completa per la tua azienda.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="bg-erp-blue hover:bg-erp-darkblue text-lg px-6 py-3 h-auto">
+              <Button 
+                className="bg-erp-blue hover:bg-erp-darkblue text-lg px-6 py-3 h-auto"
+                onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
+              >
                 Scopri i nostri servizi
               </Button>
-              <Button variant="outline" className="border-erp-darkgray text-erp-text hover:bg-erp-gray text-lg px-6 py-3 h-auto">
+              <Button 
+                variant="outline" 
+                className="border-erp-darkgray text-erp-text hover:bg-erp-gray text-lg px-6 py-3 h-auto"
+                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+              >
                 Richiedi Demo <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </div>

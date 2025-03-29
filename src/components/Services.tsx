@@ -99,7 +99,10 @@ const Services = () => {
           </div>
           
           <div className="mt-12">
-            <Button className="bg-erp-blue hover:bg-erp-darkblue text-lg px-6 py-6 h-auto">
+            <Button 
+              className="bg-erp-blue hover:bg-erp-darkblue text-lg px-6 py-6 h-auto"
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               Richiedi una consulenza gratuita
             </Button>
           </div>
