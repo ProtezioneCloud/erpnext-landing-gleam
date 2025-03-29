@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -14,8 +15,9 @@ const Header = () => {
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <a href="/" className="flex items-center">
-          <img src={Logo} alt="ERPManager Logo" className="h-8 w-auto" />
+        <a href="/" className="flex items-center gap-2">
+          <img src={Logo} alt="ERP Logo" className="h-10 w-auto" />
+          <span className="text-erp-text font-bold text-xl">ERPManager</span>
         </a>
 
         {/* Desktop Navigation */}
