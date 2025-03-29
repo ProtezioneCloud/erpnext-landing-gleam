@@ -12,16 +12,16 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>ERPManager.it - Integrazione e personalizzazione ERPNext per la tua azienda</title>
-        <meta name="description" content="Integrazione e personalizzazione professionale di ERPNext, il software gestionale completo per la tua azienda. Scopri i nostri servizi di implementazione, configurazione e supporto." />
-        <meta name="keywords" content="ERPNext, gestionale, ERP, software aziendale, integrazione ERP, personalizzazione ERPNext, software gestionale, open source ERP, implementazione ERPNext" />
-        <meta property="og:title" content="ERPManager.it - Integrazione e personalizzazione ERPNext" />
-        <meta property="og:description" content="Integrazione e personalizzazione professionale di ERPNext, il software gestionale completo per la tua azienda." />
+        <title>ERPManager.it - Integrazione e personalizzazione ERPNext | Software Gestionale Completo</title>
+        <meta name="description" content="Servizi professionali di integrazione, configurazione e personalizzazione ERPNext. Implementazione del software gestionale completo per ottimizzare i processi della tua azienda." />
+        <meta name="keywords" content="ERPNext, gestionale aziendale, software ERP, integrazione ERP, personalizzazione ERPNext, software gestionale, open source ERP, implementazione ERPNext, sistema gestionale, automazione processi aziendali" />
+        <meta property="og:title" content="ERPManager.it - Software Gestionale ERPNext | Soluzioni Aziendali Complete" />
+        <meta property="og:description" content="Servizi professionali di integrazione e personalizzazione ERPNext. Soluzioni gestionali complete per la tua azienda." />
         <meta property="og:url" content="https://erpmanager.it" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="ERPManager.it - Integrazione e personalizzazione ERPNext" />
-        <meta name="twitter:description" content="Integrazione e personalizzazione professionale di ERPNext, il software gestionale completo per la tua azienda." />
+        <meta name="twitter:title" content="ERPManager.it - Software Gestionale ERPNext | Soluzioni Aziendali" />
+        <meta name="twitter:description" content="Servizi professionali di integrazione e personalizzazione ERPNext per la tua azienda." />
         <link rel="canonical" href="https://erpmanager.it" />
       </Helmet>
       

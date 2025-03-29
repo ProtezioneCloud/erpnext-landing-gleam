@@ -18,6 +18,7 @@ const Hero = () => {
               <Button 
                 className="bg-erp-blue hover:bg-erp-darkblue text-lg px-6 py-3 h-auto"
                 onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
+                aria-label="Scopri i servizi di integrazione ERPNext"
               >
                 Scopri i nostri servizi
               </Button>
@@ -25,6 +26,7 @@ const Hero = () => {
                 variant="outline" 
                 className="border-erp-darkgray text-erp-text hover:bg-erp-gray text-lg px-6 py-3 h-auto"
                 onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+                aria-label="Richiedi una demo di ERPNext"
               >
                 Richiedi Demo <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
@@ -34,8 +36,11 @@ const Hero = () => {
             <div className="relative rounded-xl shadow-xl overflow-hidden">
               <img 
                 src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=2426&q=80" 
-                alt="ERPNext Dashboard" 
+                alt="Dashboard ERPNext personalizzata per la gestione aziendale" 
                 className="w-full rounded-xl"
+                width="2426"
+                height="1617"
+                loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
               <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
